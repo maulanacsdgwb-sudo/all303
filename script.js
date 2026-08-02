@@ -24,5 +24,4 @@ liveChatButton.addEventListener("click", () => {
   
   }
 
-  alert("Widget LiveChat belum dipasang. Tambahkan script LiveChat.com terlebih dahulu.");
-});
+
