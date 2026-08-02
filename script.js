@@ -1,6 +1,6 @@
 const LINKS = {
-  login: "https://example.com/login",
-  register: "https://example.com/register"
+  login: "https://allmerdeka.biz/",
+  register: "https://allmerdeka.biz/"
 };
 
 const loginButton = document.getElementById("loginButton");
