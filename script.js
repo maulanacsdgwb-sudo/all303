@@ -18,10 +18,10 @@ registerButton.addEventListener("click", (event) => {
 });
 
 liveChatButton.addEventListener("click", () => {
-  // Mendukung LiveChat.com jika widget sudah dipasang.
-  if (window.LiveChatWidget && typeof window.LiveChatWidget.call === "function") {
-    window.LiveChatWidget.call("maximize");
-    return;
+ const LINKS = {
+   livechat : "https://direct.lc.chat/11470993/18'",
+ };
+  
   }
 
   alert("Widget LiveChat belum dipasang. Tambahkan script LiveChat.com terlebih dahulu.");
